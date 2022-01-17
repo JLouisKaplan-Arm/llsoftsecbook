@@ -26,7 +26,7 @@ body {
   left: 1%;
   width: 94%;
 }
-/* Ensure superflous horizantal scroll bar is not added. */
+/* Ensure superflous horizontal scroll bar is not added. */
 body {
   text-align: left;
   position: relative;
