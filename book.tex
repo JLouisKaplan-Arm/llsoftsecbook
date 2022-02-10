@@ -228,10 +228,10 @@ was the first widely publicized attack exploiting a buffer overflow.
 Later, in the mid-90s, a few famous write-ups describing buffer
 overflows appeared (Aleph One
 \protect\hyperlink{ref-AlephOne1996}{1996}).
-\protect\hyperlink{stack-overflows}{Stack overflows} were mitigated with
-\protect\hyperlink{stack-overflows}{stack canaries} and
-\protect\hyperlink{stack-overflows}{non-executable stacks}. The answer
-was more ingenious ways to bypass these mitigations:
+\protect\hyperlink{stack-buffer-overflows}{Stack buffer overflows} were
+mitigated with \protect\hyperlink{stack-buffer-overflows}{stack
+canaries} and \protect\hyperlink{stack-buffer-overflows}{non-executable
+stacks}. The answer was more ingenious ways to bypass these mitigations:
 \protect\hyperlink{code-reuse-attacks}{code reuse attacks}, starting
 with attacks like
 \protect\hyperlink{code-reuse-attacks}{return-into-libc} (Solar Designer
@@ -277,7 +277,7 @@ active developments in this area, compiler developers are likely to
 encounter some of these issues over the course of their careers. This
 chapter aims to serve as an introduction to this area. We start with a
 discussion of exploitation primitives, which can be useful when
-discussing threat models \todo{Discuss
+analyzing threat models \todo{Discuss
 threat models elsewhere in book and refer to that section here}. We then
 continue with a more detailed discussion of the various types of
 vulnerabilities, along with their mitigations, presented in a rough
@@ -288,10 +288,10 @@ chronological order of their appearance, and, therefore, complexity.
 
 \missingcontent{Discuss exploitation primitives}
 
-\hypertarget{stack-overflows}{%
-\section{Stack overflows}\label{stack-overflows}}
+\hypertarget{stack-buffer-overflows}{%
+\section{Stack buffer overflows}\label{stack-buffer-overflows}}
 
-\missingcontent{Describe stack overflows and mitigations}
+\missingcontent{Describe stack buffer overflows and mitigations}
 
 \hypertarget{code-reuse-attacks}{%
 \section{Code reuse attacks}\label{code-reuse-attacks}}
